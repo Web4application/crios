@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 require "rake/testtask"
 
 ACTIVEJOB_ADAPTERS = %w(async inline queue_classic resque sidekiq sneakers backburner test)
